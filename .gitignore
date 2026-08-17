@@ -1,0 +1,73 @@
+
+# ============================================
+# Gitignore para projetos Python com Poetry
+# ============================================
+
+# Ignorar arquivos e diretórios específicos dcriados por mim mesmo, como arquivis/diretórios de experimentos, estudos e testes.
+HELPER.md
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Cache e versões do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Configurações locais de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Saídas de testes
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+# Arquivos grandes gerados em notebooks (opcional)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.pickle
+*.joblib
+
+# Modelos treinados (opcional)
+*.model
+*.h5
+*.pt
+*.pth
+
+# Dados brutos (opcional, se não quiser versionar datasets)
+data/
+datasets/
+
+# Arquivos de ambiente
+.env
+*.env
