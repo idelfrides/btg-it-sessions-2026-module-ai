@@ -1951,7 +1951,7 @@ version = "3.0.5"
 description = "Powerful data structures for data analysis, time series, and statistics"
 optional = false
 python-versions = ">=3.11"
-groups = ["main"]
+groups = ["main", "dev"]
 files = [
     {file = "pandas-3.0.5-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:2946e77e4a53cd248cbde631a12f0e51c8324ce354c3eba4d20147c1ad6f4282"},
     {file = "pandas-3.0.5-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:71ecc8fb7ed1a7aa4392316b5309a6347e8e7f832f38fd897846b3a1457a9298"},
@@ -2299,6 +2299,20 @@ files = [
     {file = "pycparser-3.0-py3-none-any.whl", hash = "sha256:b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"},
     {file = "pycparser-3.0.tar.gz", hash = "sha256:600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29"},
 ]
+
+[[package]]
+name = "pydataset"
+version = "0.2.0"
+description = "Provides instant access to many popular datasets right from Python (in dataframe structure)."
+optional = false
+python-versions = "*"
+groups = ["dev"]
+files = [
+    {file = "pydataset-0.2.0.tar.gz", hash = "sha256:e12a7b8a21fea3fc50ef93f13bd0819f820826d4078f791c2abe40fe8be04c0b"},
+]
+
+[package.dependencies]
+pandas = "*"
 
 [[package]]
 name = "pygments"
@@ -3164,4 +3178,4 @@ test = ["pytest", "websockets"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "0aec98606a0620a089b7085648517a9a974504125b80161fe9d3a95148869460"
+content-hash = "2344db09510213a3fc7cfe7c657e7dc13a181095ac0838aa428825e7fc66d50a"

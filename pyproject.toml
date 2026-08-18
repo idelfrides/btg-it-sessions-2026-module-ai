@@ -22,5 +22,6 @@ dev = [
     "notebook (>=7.6.2,<8.0.0)",
     "jupyterlab (>=4.6.3,<5.0.0)",
     "ipykernel (>=7.3.0,<8.0.0)",
-    "matplotlib (>=3.11.1,<4.0.0)"
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "pydataset (>=0.2.0,<0.3.0)"
 ]
