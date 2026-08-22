@@ -5,7 +5,7 @@
 
 # Ignorar arquivos e diretórios específicos dcriados por mim mesmo, como arquivis/diretórios de experimentos, estudos e testes.
 HELPER.md
-
+HOLDER/
 # Ambientes virtuais
 .venv/
 venv/
